@@ -13,7 +13,6 @@ function App() {
   }
 
   const addTodo = (title,desc) =>{
-    alert('this line is adding for testing in git')
     const sno = (todos.length)+1;
     const myTodo = {
       sno : sno,
