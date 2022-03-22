@@ -8,9 +8,11 @@ export const AddTodos = ({addTodo}) => {
         e.preventDefault();
         if (!title || !decs) {
             alert("Please enter a title and description")
-        }
+        }else{
         addTodo(title,decs);
+        }
     }
+
     return (
         <div className="container">
             <form onSubmit={submit}>

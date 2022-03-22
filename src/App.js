@@ -13,6 +13,7 @@ function App() {
   }
 
   const addTodo = (title,desc) =>{
+    alert('this line is adding for testing in git')
     const sno = (todos.length)+1;
     const myTodo = {
       sno : sno,
@@ -27,8 +28,8 @@ function App() {
   const [todos, setTodos] = useState([
     {
       sno : 1,
-      title : 'test2',
-      Desc : 'testing2 decsription2'
+      title : 'test',
+      Desc : 'testing decsription'
     },
     {
       sno : 2,
