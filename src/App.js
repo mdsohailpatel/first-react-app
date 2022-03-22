@@ -13,7 +13,7 @@ function App() {
   }
 
   const addTodo = (title,desc) =>{
-    
+    alert("Gous COde");
     const sno = (todos.length)+1;
     const myTodo = {
       sno : sno,
