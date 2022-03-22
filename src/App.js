@@ -7,6 +7,7 @@ import React, { useState } from 'react';
 function App() {
   
   const onDelete = (todo)=>{
+    alert("Delete Todo From the list");
     setTodos(todos.filter((e) =>{
       return e!==todo;
     }))
