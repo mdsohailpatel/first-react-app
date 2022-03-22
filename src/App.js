@@ -28,8 +28,8 @@ function App() {
   const [todos, setTodos] = useState([
     {
       sno : 1,
-      title : 'test2',
-      Desc : 'testing2 decsription2'
+      title : 'test',
+      Desc : 'testing decsription'
     },
     {
       sno : 2,
