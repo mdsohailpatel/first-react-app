@@ -13,7 +13,7 @@ function App() {
   }
 
   const addTodo = (title,desc) =>{
-    alert("Naam toh suna hi hoga rahul");
+    
     const sno = (todos.length)+1;
     const myTodo = {
       sno : sno,
